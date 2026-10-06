@@ -20,5 +20,28 @@ int main() {
   double firstNum = std::stod(numOne);
   double secondNum = std::stod(numTwo);
 
+  switch (sign)
+  {
+  case '+':
+    std::cout << firstNum + secondNum << std::endl;
+    break;
+
+  case '-':
+    std::cout << firstNum - secondNum << std::endl;
+    break;
+  
+  case '*':
+    std::cout << firstNum * secondNum << std::endl;
+    break;
+
+  case '/':
+    std::cout << firstNum / secondNum << std::endl;
+    break;  
+
+  default:
+    std::cout << "Restart the program and provided all require inputs" << std::endl;
+    break;
+  }
+
   return 0;
 }
