@@ -6,7 +6,7 @@ int main() {
 
   std::string numOne;
   std::string numTwo;
-  std::string sign;
+  char sign;
 
   std::cout << "Enter the first number: ";
   std::cin >> numOne;
