@@ -8,5 +8,14 @@ int main() {
   std::string numTwo;
   std::string sign;
 
+  std::cout << "Enter the first number: ";
+  std::cin >> numOne;
+
+  std::cout << "Enter the second number: ";
+  std::cin >> numTwo;
+
+  std::cout << "Enter the operator sign [+, -, *, /]: ";
+  std::cin >> sign;
+
   return 0;
 }
