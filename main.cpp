@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello world" << std::endl;
+  std::cout << "-----Started Calculaor-----" << std::endl;
 
   return 0;
 }
