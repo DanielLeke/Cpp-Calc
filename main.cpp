@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-  std::cout << "-----Started Calculaor-----" << std::endl;
+  std::cout << "-----Started Calculaor Program-----" << std::endl;
 
   std::string numOne;
   std::string numTwo;
