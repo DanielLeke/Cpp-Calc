@@ -17,8 +17,8 @@ int main() {
   std::cout << "Enter the operator sign [+, -, *, /]: ";
   std::cin >> sign;
 
-  double firstNum = std::stod(numOne);
-  double secondNum = std::stod(numTwo);
+  double firstNum {std::stod(numOne)};
+  double secondNum {std::stod(numTwo)};
 
   switch (sign)
   {
